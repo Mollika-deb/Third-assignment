@@ -29,9 +29,15 @@ footer{
     background-color: black;
 }
 @media screen and (max-width:576px) {
-
-.carousel-caption h1{
-    font-size: 0.01rem;
+.carousel-item > img{
+    height: 350px;
+}
+.font h1{
+    font-size:15px;
+    padding-top: px;
+}
+.font p{
+    font-size: 10px;
 }
    .course{
         display:flex;
@@ -46,6 +52,21 @@ footer{
   
    .company{
     display:none;
+   }
+}
+   @media only screen and (min-width:577px) and (max-width:992px) {
+        .carousel-item > img {
+                height: 350px;
+            }
+        
+            .font h1 {
+                font-size: 15px;
+                padding-top: 5px;
+            }
+        
+            .font p {
+                font-size: 10px;
+            }
    }
 
    
