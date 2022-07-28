@@ -24,10 +24,15 @@
         text-align: center;
         transform: translate(0%, -55%);
 }
-
+footer{
+    height:300px;
+    background-color: black;
+}
 @media screen and (max-width:576px) {
 
-   
+.carousel-caption h1{
+    font-size: 0.01rem;
+}
    .course{
         display:flex;
         flex-direction: column;
