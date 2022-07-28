@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    overflow:hidden;
+}
+.carousel-item{
+    height:50%vh;
+    
+    background:no-repeat;
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-color: black;
+    
+    
+}
+.filter{
+    opacity: 0.4;
+    
+   
+}
+.carousel-caption{
+        text-align: center;
+        transform: translate(5%, -55%);
+}
+
+@media screen and (max-width:576px) {
+    header{
+
+    }
+   
+    .filter{
+        width:100%;
+        height:auto;
+        
+    }
+    /* .carousel-item {
+        height: 100%vh;
+        background: no-repeat;
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-color: black;
+    } */
+    .carousel-item > h1{
+        font-size: 1em;
+        padding-top: 10px;
+    }
+
+    
+       
+} 
