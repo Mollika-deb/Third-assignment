@@ -38,6 +38,11 @@
         justify-content: center;
         align-items: center;
    }
+  
+   .company{
+    display:none;
+   }
+
    
     
        
