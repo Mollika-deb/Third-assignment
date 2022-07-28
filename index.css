@@ -67,9 +67,11 @@ footer{
             .font p {
                 font-size: 10px;
             }
+            .company {
+                display: none;
+            }
    }
 
    
     
        
-} 
